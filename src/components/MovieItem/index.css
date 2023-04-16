@@ -1,0 +1,7 @@
+/* Write your CSS here */
+
+.movie-card {
+  height: 100px;
+  background-size: cover;
+  border-radius: 5px;
+}

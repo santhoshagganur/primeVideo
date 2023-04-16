@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.app-bg-container {
+  background-color: #000000;
+}
+
+.app-image {
+  height: 40vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.bottom-container {
+  padding: 20px;
+}
+
+.action-movie {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
