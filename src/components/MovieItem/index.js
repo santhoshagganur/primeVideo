@@ -14,6 +14,7 @@ const MovieItem = props => {
       trigger={
         <img src={thumbnailUrl} alt="movie-card" className="movie-card" />
       }
+      className="popup-content"
     >
       {close => (
         <>

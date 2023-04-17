@@ -1,7 +1,16 @@
 /* Write your CSS here */
 
 .movie-card {
-  height: 100px;
+  height: 150px;
+  width: 215px;
   background-size: cover;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 460px;
+  border-radius: 16px;
 }
