@@ -14,3 +14,13 @@
   height: 460px;
   border-radius: 16px;
 }
+
+.close-button {
+  background-color: transparent;
+  border-width: 0;
+  margin: 20px;
+}
+
+.video-container {
+  padding: 20px;
+}

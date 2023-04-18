@@ -12,7 +12,7 @@ const MovieItem = props => {
     <Popup
       modal
       trigger={
-        <img src={thumbnailUrl} alt="movie-card" className="movie-card" />
+        <img src={thumbnailUrl} alt="thumbnail" className="movie-card" />
       }
       className="popup-content"
     >
@@ -22,10 +22,11 @@ const MovieItem = props => {
             type="button"
             data-testid="closeButton"
             onClick={() => close()}
+            className="close-button"
           >
             <IoMdClose size={20} color="#231f20" />
           </button>
-          <ReactPlayer url={videoUrl} />
+          <ReactPlayer url={videoUrl} className="video-container" />
         </>
       )}
     </Popup>
